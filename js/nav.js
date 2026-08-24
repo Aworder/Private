@@ -1,4 +1,3 @@
-javascript
 export function initNav() {
   var path = location.pathname.split("/").pop() || "index.html";
   var links = document.querySelectorAll(".nav-link");
