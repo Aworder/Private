@@ -10,3 +10,7 @@ desktop.ini
 
 .DS_Store
 
+# 依赖和构建产物
+node_modules
+dist
+
