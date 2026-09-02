@@ -1,16 +1,19 @@
- # Windows 系统文件
-Thumbs.db
-desktop.ini
-~$*
+# dependencies
+node_modules/
 
-# 编辑器临时文件
-*.swp
-*.swo
-*~
+# next.js
+.next/
+out/
 
+# production
+build/
+dist/
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+
+# misc
 .DS_Store
-
-# 依赖和构建产物
-node_modules
-dist
-
+*.log
+.env*
